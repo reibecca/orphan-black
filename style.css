@@ -1,8 +1,9 @@
 /* Série : Orphan Black (Rébecca) */
 
-*{margin: 0;
+*{
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
@@ -180,6 +181,13 @@ table{
 iframe:hover{
     transition: 0.5s;
     transform: scale(1.05);
+}
+
+@media (max-width: 1300px){
+    #saisons iframe{
+        border: 2px solid #FFFFFF;
+        width: 350px;
+    }
 }
 
 
