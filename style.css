@@ -1,0 +1,281 @@
+/* Série : Orphan Black (Rébecca) */
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+/* FOND DU SITE */
+.container{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+
+/* ACCUEIL */
+#accueil{
+    background-image: url('coversarah.jpg');
+    width: 100%;
+    height: 743px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    /* border: blue solid 4px; */
+    display: flex;
+    align-items: flex-start;
+    width: 98%;
+}
+
+#accueil nav{
+    /* border: cadetblue solid 4px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 647px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#accueil img{
+    /* border: tomato solid 4px; */
+    align-self: flex-start;
+    margin-top: 82px;
+    margin-left: 51px;
+}
+
+
+/* TITRES PRINCIPAUX */
+h2{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px;
+    text-align: center;
+}
+
+/* SYNOPSIS */
+
+#synopsis h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#synopsis p{
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-right: 49px;
+    margin-left: 48px;
+}
+
+/* PERSONNAGES */
+
+td{
+    border: 2px solid white
+}
+
+table{
+    margin-left: 46px;
+    margin-right: 46px;
+}
+
+#personnages .photo{
+    width: 150px;
+    height: 150px;
+    background: black;
+}
+
+#personnages .photo:hover{
+    transition: 0.5s;
+    background-color: #DFAB6F;
+}   
+
+#personnages img{
+    padding: 9px;
+}
+
+#personnages img:hover{
+    transform: scale(1.05);
+}
+
+#personnages .name{
+    width: 190px;
+    height: 150px;
+    background: black;
+    /* padding: 15px; */
+    font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#personnages .bio{
+    width: 1000px;
+    height: 150px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+/* SAISONS */
+#saisons{
+    /* border: 4px tomato solid; */
+    margin-top: 37px;
+    background-image: url('coversaisons.png');
+    height: 769px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#saisons h2{
+    /* border: chartreuse solid 4px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#saisons h3{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-left: 15px;
+}
+
+#saisons .videos{
+    /* border: solid purple 4px; */
+    margin-bottom: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#saisons iframe{
+    border: 2px solid #FFFFFF;
+    width: 450px;
+    height: 253px;
+}
+
+iframe:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+
+/* NOUS CONTACTER */
+
+#contact{
+    height: 727px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact h2{
+    margin: 0%;
+    margin-top: 43px;
+}
+
+form{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 31px;
+    margin-top: 33px;
+}
+
+#nom{
+    height: 52px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #707070;
+    background: #EAEAEA;
+    border: none;
+    padding-left: 15px;
+}
+
+#email{
+    height: 52px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #707070;
+    background: #EAEAEA;
+    border: none;
+    padding-left: 15px;
+}
+
+#message{
+    height: 156px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #707070;
+    background: #EAEAEA;
+    border: none;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#bouton{
+    width: 155px;
+    height: 53px;
+    background: #E2C397;
+    border: 2px solid rgba(226, 162, 126, 0.5);
+    border-radius: 70px;
+    font-weight: 400;
+    font-size: 14px;
+    color:black;
+    align-self: center;
+}
+
+#bouton:hover{
+    transition: 0.5s;
+    background-color: #DFAB6F;
+    color: white;
+}
+
+#contact p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0%;
+    margin-top: 67px;
+}
+
+#contact .site{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color:  #E2C397;;
+    margin: 0%;
+}
